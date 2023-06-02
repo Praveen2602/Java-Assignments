@@ -1,0 +1,37 @@
+1.What is Git.
+ans-- Git is a popular version control system(VCS), It was created by Linus Torvalds in 2005 and has been maintained
+by Junio Hamano.
+
+2.What do you understand by the term ‘Version Control System'.
+ans-- It is a system that records changes to a file or set of files over time, so that we can recall specific versions later,
+i.e., for every source code changes in a file a new version will be created. 
+
+3.What is GitHub.
+ans--GitHub is a code hosting platform for version control and collaboration. 
+     It lets you and others work together on projects from anywhere. This tutorial teaches you 
+     GitHub essentials like repositories, branches, commits, and pull requests.
+4.Mention some popular Git hosting service.
+ans--GitHub, bitBucket,Gitlab etc.
+
+5. Different types of version control system.
+ ans-There are 3 types of VCS
+A.Local Version Control System (LVCS).
+B.Centralised Control System (CVCS).
+C.Distributed Version Control System (DVCS).
+
+6.What benefits come with using GIT.
+ans--a.Good distributed model as each developer gets a local repository with a complete history of 
+        commits which makes git fast compared to other VCs.
+     b.Branching capabilities and merging are easy (as they are cheap), and they have good data integrity.
+     c.They are free and open-source.
+
+7.What is a Git repository.
+ans--A Git repository tracks and saves the history of all changes made to the files in a Git project. It saves this data in a directory called . git , also known as the repository folder. Git uses a version control system to track all changes made to the project and save them in the repository.
+
+
+8.How can you initialize a repository in Git.
+ans--a.Open TerminalTerminalGit Bash.
+     b.Navigate to the root directory of your project.
+     c.Initialize the local directory as a Git repository. By default, the initial branch is called main . ...
+     d.Add the files in your new local repository. ...
+     e.Commit the files that you've staged in your local repository.
