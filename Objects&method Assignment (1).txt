@@ -1,0 +1,43 @@
+1.how  to Create an Object in Java.
+ans-- className objectName = new className();
+
+2.What is the use of a new keyword in Java.
+abs-- By using new keyword we allocate the memory to the object.
+
+3.What are the Different types of variables in Java.
+ans-- In java there are three types of variables.
+          a- static variables
+          b. local variables
+          c. instance variables
+
+
+4. What is the difference between Instance variable and local variables          
+  ans-- Local variable- 
+                  a. Sometimes to meet temporary requirements of the programmer ,we can declare variables inside a method
+                     or block or constructors such type of variables are called local variables or automatic variables or
+                     temporary variables or stack variables.
+                  b. Local variables ,will be stored inside the stack.+
+                  c.The local variables ,will be created as part of the block execution in ,which it is declared and destroyed once
+                    that block execution completes. Hence the scope of the local variables is exactly the same as the scope of
+                     the block in ,which ,we declared.
+       -> Instance variables--
+                   a.If the value of a variable is varied from object to object such types of variables are called instance
+                   variables.For every object a separate copy of instance variables will be created.
+                   b.Instance variables will be created at the time of object creation and destroyed at the time of object
+                   c.destruction hence the scope of instance variables is exactly the same as scope of objects.
+                   d.Instance variables will be stored on the heap as the part of the object.             
+
+ 5.In which area memory is allocated for instance variable and instance variable
+
+  ans-- instance variable is allocated in  heap area.
+        lacal variable is allocated in stack area .
+
+ 6. What is method overloading .
+ ans--Two methods are said to be overloaded if and only if both have the same name but different argument
+types.In the 'C' language we can't take 2 methods with the same name and different types. If there is a change in
+argument type compulsory we should go for a new method name.  
+
+   But in java we can take multiple methods with the same name and different argument types.
+       abs(int) for int datatype
+       abs(long) for long datatype
+       abs(float) for float datatype
