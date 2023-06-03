@@ -1,0 +1,36 @@
+1.What is the default value of Array for different data types.
+   ans -- boolean -> false
+          int-->     0
+          double->   0.0
+          String ->  null
+user defined type-> null
+
+2.Can you pass the negative number in Array size.
+ans-- No, you cannot use a negative integer as size, 
+the size of an array represents the number of elements in it, 
+–ve number of elements in an array makes no sense.
+Still if you do so, the program gets compiled without issues but, 
+while executing it generates a runtime exception of type NegativeArraySizeException.
+
+3.Where does Array stored in JVM memory.
+ans--  The reference types in Java are stored in heap area. 
+       Since arrays are reference types (we can create them using the new keyword) these are also stored in heap area.
+
+4.What are the disadvantges of Array.
+ans-- > once we create the size cannot be increased or decreased
+      > It stores only homogeneous data elements.
+
+
+5.What is an Anonymous Array in Java ?.Give an example.
+ans-- > Aa array without a name is called Anonymous Array.
+      > This type of array is create, just for instance use.    
+
+
+6.What are the different ways to traverse an Array in java.
+ans--  You can traverse through an array using for loop or forEach loop. Using the for loop − 
+Instead on printing element by element, you can iterate the index using for loop starting from 0 
+to length of the array (ArrayName. length) and access elements at each index. 
+
+
+7.What is the difference between length and length() method?.Give an Examles.
+ans-- Length is property of array where as length() is method  of String class.             
